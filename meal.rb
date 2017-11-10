@@ -10,6 +10,7 @@ class Meal
 
 	def add_food(new_food, portion_size)
 		food.push(new_food)
+		print @name
 		@portion_size.push(portion_size)
 	end
 
